@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+	<title>NEWS</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ffffff } 
+	</style>
+	<g id="NEWS">
+		<g id="News">
+			<g id="1">
+				<g id="Hover">
+					<path id="Ellipse 6" class="shp0" d="M40 0C62.09 0 80 17.91 80 40C80 62.09 62.09 80 40 80C17.91 80 0 62.09 0 40C0 17.91 17.91 0 40 0ZM29 40L52 40L52 41L29 41L29 40ZM40 29L41 29L41 52L40 52L40 29Z" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

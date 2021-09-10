@@ -1,0 +1,136 @@
+.contact{
+    width:100%;
+    position: relative;
+
+    &__map{
+        width: 100%;
+        height: 700px;
+        background: grey;
+    }
+
+    &__contacts{
+        width: 770px;
+        height: 450px;
+    }
+}
+
+.contacts{
+    background-color:#fff;
+    background-image: url('../img/png/contact-bg.png');
+    background-position: 50%;
+    filter: drop-shadow(0px -4px 15px rgba(133,133,133,0.2));
+    padding: 60px;
+    position: absolute;
+    left: calc(50% - 385px);
+    bottom: -151px;
+
+    &__title{
+        margin: 0;
+        margin-bottom: 34px;
+        letter-spacing: -0.2px;
+
+        &:before{
+            height: 18px;
+        }
+    }
+
+    &__container{
+        width:100%;
+        height: 204px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__col{
+        width: 47.7%;
+        height:100%;
+    }
+
+    &__list{
+        height: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__item {
+        margin-top: 12px;
+        & > i{
+            color: #7e5aff;
+        }
+
+        &:first-child{
+            margin-top: 12px;
+        }
+    }
+
+    &__link{
+        font-family: "Gotham Book";
+        text-decoration: none;
+        margin-left: 8px;
+        font-size: 18px;
+        color: #2c4058;
+    }
+}
+
+.form{
+    &--contact{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__button{
+        align-self: flex-end;
+    }
+}
+
+
+@media screen and (max-width: 830px){
+    .contact{    
+        &__contacts{
+            width: 100%;
+        }
+    }
+
+    .contacts{
+        position:relative;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contact{
+        &__contacts{
+            height: auto;
+        } 
+    }
+    .contacts{
+        &__container{
+            width:100%;
+            height: auto;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        &__col{
+            width: 100%;
+            height:auto;
+
+            .form--contact{
+                width:80%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .contacts{
+        padding: 20px;
+    }
+}

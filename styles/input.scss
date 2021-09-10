@@ -1,0 +1,77 @@
+.input{
+    outline: none;
+    border: none;
+    width: 310px;
+    height: 50px;
+    border-bottom: 1px solid rgba(#2c4058,0.5);
+    background: transparent;
+    font-family: "Gotham Book";
+
+    &:focus{
+        font-size: 18px;
+        color: #2c4058;
+        border-bottom: 1px solid rgba(#2c4058,1);
+        
+    }
+
+    &::placeholder{
+        font-size: 18px;
+        color: #4b5562;
+    }
+    
+    &--search{
+        width: 130px;
+        color:#fff;
+        font-family: "Gotham Book";
+        padding-bottom: 5px;
+        border-bottom: none;
+
+        &::placeholder{
+            color: #fff;
+            letter-spacing: 2px;
+            padding-left: 10px;
+            font-size: 14px;
+        }
+
+        &:focus{
+            outline: none;
+            border-bottom: none;
+            color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .input{
+        &--search{
+            border-bottom:1px solid #fff;
+            display: none;
+            position: absolute;
+            height: 30px;
+            top: 47px;
+            left: -130px;
+            
+            &::placeholder{
+                padding-left: 0px;
+                font-size: 12px;
+            }
+
+            &-visible{
+                display: block;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .input{
+        width: 100%;
+        margin-bottom: 20px;
+
+        &--search{
+            width: 130px;
+            margin-bottom: 0px;
+        }
+    }
+}

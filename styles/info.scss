@@ -1,0 +1,70 @@
+.info {
+
+  &--project{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2c4058;
+
+    .info__title{
+      margin-left: -2px;
+      font-size: 22px;
+      font-family: "Gotham Book";
+
+      .text-bold{
+        margin-top: 2px;
+        font-size: 44px;
+        font-family: "Gotham Bold";
+      }
+    }
+
+    .info__text{
+      line-height: 30px;
+      text-transform: initial;
+      color: #4b5562;
+      font-family: "Open Sans", sans-serif;
+      margin: 23px 0 31px;
+    }
+
+    .info__location{
+      text-transform: initial;
+      font-style: italic;
+      font-family: "Open Sans", sans-serif;
+      margin: 55px 0 65px -5px;
+      word-spacing: -0.2px;
+
+      & > i{
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1025px){
+  .info{
+    &--project{
+      .info__title{
+          .text-bold{
+            font-size: 40px;
+          }
+      }
+
+      .info__text{
+        margin: 10px 0 20px;
+      }
+
+      .info__location{
+        margin: 20px 0 20px 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:500px){
+  .info--project{
+    .info__title{
+      .text-bold{
+        font-size: 30px;
+      }
+    }
+  }
+}

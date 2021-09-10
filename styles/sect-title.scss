@@ -1,0 +1,29 @@
+.sect-title{
+    text-align: center;
+    font-family: "Gotham Bold";
+    font-size: 44px;
+    color: #2c4058;
+    letter-spacing: 0.16px;
+    margin: 99px 0 90px -3px;
+ 
+    &::before{
+        display: block;
+        width: 98px;
+        margin: 0 auto;
+        height: 30px;
+        content: "";
+        border-top: 1px solid #2c4058;
+    }
+}
+
+@media screen and (max-width: 946px){
+    .sect-title{
+        margin: 99px 0 20px -3px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .sect-title{
+        font-size: 40px;
+    }
+}

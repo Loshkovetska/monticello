@@ -1,0 +1,28 @@
+.news{
+    width:100%;
+    background-image: url('../img/png/news-bg.png');
+    background-size: cover;
+    padding: 40px 0 1px;
+
+    .sect-title{
+        color: #fff;
+        &::before{
+            border-color: #fff;
+        }
+    }
+
+    &__slider{
+        margin-bottom: 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:946px){
+    .news{
+        .sect-title {
+            margin: 45px 0 20px -3px;
+        }
+    }
+}

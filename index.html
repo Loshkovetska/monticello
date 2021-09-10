@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="international group, buildings, architecture" />
+    <meta name="description" content="Safe travel anywhere" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Monticello</title>
+    <link rel="stylesheet" href="./slick/slick.css"/>
+    <link rel="stylesheet" href="./slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/index.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <nav class="header__navigation navigation">
+                <div class="navigation__container">
+                    <div class="navigation__logo">
+                        <img class="logo" src="./img/svg/Logo.svg" alt="logo" />
+                    </div>
+                    <ul class="navigation__list">
+                        <li class="navigation__item navigation__item--active">
+                            <a href="#about" class="navigation__link">ABOUT US</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#projects" class="navigation__link">PROJECTS</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#news" class="navigation__link">NEWS</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#contact" class="navigation__link">CONTACT</a>
+                        </li>
+                    </ul>
+                    <div class="header__form form form--header">
+                        <input type="text" placeholder="Search" class="input input--search" />
+                        <button type="submit" class="form__button button button--search">
+                            <img
+                                class="button__icon"
+                                src="./img/svg/search.svg"
+                                alt="search"
+                            />
+                        </button>
+                    </div>
+                    <button class="navigation__hamburger hamburger">
+                        <div class="hamburger__container">
+                        <div class="hamburger__dash"></div>
+                        <div class="hamburger__dash"></div>
+                        <div class="hamburger__dash"></div>
+                        </div>
+                    </button>
+                </div>
+            </nav>
+            <div class="header__slider slider slider--header">
+                <div class="slider__content">
+                    <div class="slide slide--show" data-slide-id="1">
+                        <h1 class="slide__title">SIMPLE & MORDERN</h1>
+                        <p class="slide__sub-title">We make the world's beautiful every day</p>
+                    </div>
+                    <div class="slide" data-slide-id="2">
+                        <h1 class="slide__title">SIMPLE</h1>
+                        <p class="slide__sub-title">We make the world's beautiful every day</p>
+                    </div>
+                    <div class="slide" data-slide-id="3">
+                        <h1 class="slide__title">MORDERN</h1>
+                        <p class="slide__sub-title">We make the world's beautiful every day</p>
+                    </div>
+                    <div class="slide" data-slide-id="4">
+                        <h1 class="slide__title">SIMPLE & MORDERN</h1>
+                        <p class="slide__sub-title">We make the world's beautiful every day</p>
+                    </div>
+                    <div class="slide" data-slide-id="5">
+                        <h1 class="slide__title">SIMPLE & MORDERN</h1>
+                        <p class="slide__sub-title">We make the world's beautiful every day</p>
+                    </div>
+                </div>
+                <div class="slider__dots dots dots--vertical">
+                    <button class="dots__button button button--dot button--dot-selected" data-slide-id="1"></button>
+                    <button class="dots__button button button--dot" data-slide-id="2"></button>
+                    <button class="dots__button button button--dot" data-slide-id="3"></button>
+                    <button class="dots__button button button--dot" data-slide-id="4"></button>
+                    <button class="dots__button button button--dot" data-slide-id="5"></button>
+                </div>
+            </div>
+            <div class="header__scroll">
+                <button class="button button--scroll">
+                    <img src="./img/svg/angle-down.svg" alt="scroll" class="button__icon">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__container">
+            <section class="main__projects projects" id="about">
+                <div class="projects__title sect-title">WHAT WE DO</div>
+                <section class="projects__item project">
+                    <div class="project__container">
+                        <div class="project__image">
+                            <img src="./img/png/project1.png" alt="pro1" class="image">
+                            <div class="back-photo back-photo--first"></div>
+                        </div>
+                        <div class="project__info info info--project">
+                            <div class="info__title">One World <div class="text-bold">Trade Center</div></div>
+                            <div class="info__text">
+                                Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.
+                            </div>
+                            <button type="submit" class="info__button button button--section">
+                                <span class="button__text">MORE DETAILS</span>
+                            </button>
+                            <div class="info__location"><i class="fas fa-map-marker-alt"></i>New York City, United States - 1776 feet</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="projects__item project project--reverse">
+                    <div class="project__container">
+                        <div class="project__image">
+                            <img src="./img/png/project2.png" alt="pro2" class="image">
+                            <div class="back-photo back-photo--second"></div>
+                        </div>
+                        <div class="project__info info info--project">
+                            <div class="info__title">International <div class="text-bold">Commerce Centre</div></div>
+                            <div class="info__text">
+                                <p class="info-text">
+                                    Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.
+                                </p>
+                            </div>
+                            <button type="submit" class="info__button button button--section">
+                                <span class="button__text">MORE DETAILS</span>
+                            </button>
+                            <div class="info__location"><i class="fas fa-map-marker-alt"></i>Hong Kong - 1588 Feet</div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="main__news news" id="news">
+                <div class="news__title sect-title">LATEST NEWS</div>
+                <div class="news__slider slider slider--news">
+                    <div class="slider__content">
+                        <div class="slide slide--show-news">
+                            <div class="slide__image">
+                                <img src="./img/png/slide1.png" alt="slide1" class="image">
+                                <img src="./img/svg/zoom.svg" alt="zoom" class="image-zoom">
+                            </div>
+                            <div class="slide__content slide-content">
+                                <div class="slide-content__title">See The Unmatched Beauty Of The Great. </div>
+                                <div class="slide-content__text">Free directories: directories are perfect for customers that are... searching for </div>
+                                <div class="slide-content__author author">
+                                    <div class="author__icon">
+                                        <img src="./img/png/author1.png" alt="author-icon" class="image">
+                                    </div>
+                                    <div class="author__name">Isaac Dunn</div>
+                                    <div class="author__date">09 Feb 2017</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide slide--show-news">
+                            <div class="slide__image">
+                                <img src="./img/png/slide2.png" alt="slide1" class="image">
+                                <img src="./img/svg/zoom.svg" alt="zoom" class="image-zoom">
+                            </div>
+                            <div class="slide__content slide-content">
+                                <div class="slide-content__title">Effective Advertising Pointers. </div>
+                                <div class="slide-content__text">Having a home based business is a wonderful asset to your life... </div>
+                                <div class="slide-content__author author">
+                                    <div class="author__icon">
+                                        <img src="./img/png/author2.png" alt="author-icon" class="image">
+                                    </div>
+                                    <div class="author__name">Dominic Freeman</div>
+                                    <div class="author__date">24 Apr 2017</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide slide--show-news">
+                            <div class="slide__image">
+                                <img src="./img/png/slide3.png" alt="slide1" class="image">
+                                <img src="./img/svg/zoom.svg" alt="zoom" class="image-zoom">
+                            </div>
+                            <div class="slide__content slide-content">
+                                <div class="slide-content__title">Hypnotize Yourself Into The Ghost. </div>
+                                <div class="slide-content__text">There are many things that are important to catalog design.... </div>
+                                <div class="slide-content__author author">
+                                    <div class="author__icon">
+                                        <img src="./img/png/author3.png" alt="author-icon" class="image">
+                                    </div>
+                                    <div class="author__name">Alice Ward</div>
+                                    <div class="author__date">30 Dec 2017</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide__image">
+                                <img src="./img/png/slide1.png" alt="slide1" class="image">
+                                <img src="./img/svg/zoom.svg" alt="zoom" class="image-zoom">
+                            </div>
+                            <div class="slide__content slide-content">
+                                <div class="slide-content__title">See The Unmatched Beauty Of The Great. </div>
+                                <div class="slide-content__text">Free directories: directories are perfect for customers that are... searching for </div>
+                                <div class="slide-content__author author">
+                                    <div class="author__icon">
+                                        <img src="./img/png/author1.png" alt="author-icon" class="image">
+                                    </div>
+                                    <div class="author__name">Isaac Dunn</div>
+                                    <div class="author__date">09 Feb 2017</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide__image">
+                                <img src="./img/png/slide2.png" alt="slide1" class="image">
+                                <img src="./img/svg/zoom.svg" alt="zoom" class="image-zoom">
+                            </div>
+                            <div class="slide__content slide-content">
+                                <div class="slide-content__title">Effective Advertising Pointers. </div>
+                                <div class="slide-content__text">Having a home based business is a wonderful asset to your life... </div>
+                                <div class="slide-content__author author">
+                                    <div class="author__icon">
+                                        <img src="./img/png/author2.png" alt="author-icon" class="image">
+                                    </div>
+                                    <div class="author__name">Dominic Freeman</div>
+                                    <div class="author__date">24 Apr 2017</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide__image">
+                                <img src="./img/png/slide3.png" alt="slide1" class="image">
+                                <img src="./img/svg/zoom.svg" alt="zoom" class="image-zoom">
+                            </div>
+                            <div class="slide__content slide-content">
+                                <div class="slide-content__title">Hypnotize Yourself Into The Ghost. </div>
+                                <div class="slide-content__text">There are many things that are important to catalog design.... </div>
+                                <div class="slide-content__author author">
+                                    <div class="author__icon">
+                                        <img src="./img/png/author3.png" alt="author-icon" class="image">
+                                    </div>
+                                    <div class="author__name">Alice Ward</div>
+                                    <div class="author__date">30 Dec 2017</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide__image">
+                                <img src="./img/png/slide3.png" alt="slide1" class="image">
+                                <img src="./img/svg/zoom.svg" alt="zoom" class="image-zoom">
+                            </div>
+                            <div class="slide__content slide-content">
+                                <div class="slide-content__title">Hypnotize Yourself Into The Ghost. </div>
+                                <div class="slide-content__text">There are many things that are important to catalog design.... </div>
+                                <div class="slide-content__author author">
+                                    <div class="author__icon">
+                                        <img src="./img/png/author3.png" alt="author-icon" class="image">
+                                    </div>
+                                    <div class="author__name">Alice Ward</div>
+                                    <div class="author__date">30 Dec 2017</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__gallery gallery" id="projects">
+                <div class="gallery__container">
+                    <div class="gallery__title sect-title">GALLERY</div>
+                    <div class="gallery__photos">
+                    <div class="photo photo--big">
+                        <img src="./img/png/photo-big.png" alt="gallery-photo" class="image">
+                        <img src="./img/svg/360.svg" alt="view" class="image-view">
+                    </div>
+                    <div class="small-photos">
+                        <div class="photo photo--small">
+                            <img src="./img/png/photo-small1.png" alt="gallery-photo" class="image">
+                        </div>
+                        <div class="photo photo--small">
+                            <img src="./img/png/photo-small2.png" alt="gallery-photo" class="image">
+                        </div>
+                        <div class="photo photo--small">
+                            <img src="./img/png/photo-small3.png" alt="gallery-photo" class="image">
+                        </div>
+                        <div class="photo photo--small">
+                            <img src="./img/png/photo-small4.png" alt="gallery-photo" class="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__button">
+                    <button class="button button--section">
+                        <span class="button__text">SEE MORE</span>
+                    </button>
+                </div>
+                </div>
+            </section>
+            <section class="main__contact contact" id="contact">
+                <section class="contact__map"></section>
+                <section class="contact__contacts contacts">
+                        <div class="contacts__title sect-title">GET IN TOUCH</div>
+                        <div class="contacts__container">
+                            <div class="contacts__col">
+                                <ul class="contacts__list">
+                                    <li class="contacts__item">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <a href="#" class="contacts__link">91 Nolan Extensions Suite 670</a>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <a href="tel:+001 356-868-2454" class="contacts__link">+001 356-868-2454</a>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <i class="fas fa-inbox"></i>
+                                        <a href="mailto:gahuy93@gmail.com" class="contacts__link">gahuy93@gmail.com</a>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <i class="far fa-clock"></i>
+                                        <a href="#" class="contacts__link">From 07:05AM to 19:30PM</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contacts__col">
+                                <form action="#" method="post" enctype="multipart/form-data" class="form form--contact">
+                                    <input type="text" name="user-name" placeholder="Name" class="input">
+                                    <input type="email" name="user-email" placeholder="Email" class="input">
+                                    <button class="form__button button button--section button--submit" type="submit">
+                                    <span class="button__text">SUBMIT</span>
+                                </button>
+                                </form>
+                            </div>
+                        </div>
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <img class="logo" src="./img/svg/Logo.svg" alt="logo">
+                </div>
+                <div class="footer__copyright">
+                    <p class="text">Copyrights &copy; 2017 Monticello</p>
+                    <div class="separator"></div>
+                    <p class="text">Made with <i class="fas fa-heart"></i> by Ga Huy</p>
+                </div>
+            </div>
+            <div class="footer__col networks">
+                <div class="networks__item">
+                    <a href="#" class="networks__link">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="networks__item">
+                    <a href="#" class="networks__link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="networks__item">
+                    <a href="#" class="networks__link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./src/hamburger.js"></script>
+    <script src="./src/buttons.js"></script>
+    <script src="./src/search.js"></script>
+    <script src="./src/custom-slider.js"></script>
+    <script src="./src/get-in-touch.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="./slick/slick.js"></script>
+     <script src="./slick/slick-slider.js"></script>
+     <script src="./src/map.js"></script>
+     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGhdmlq3VJzRbKTvQ9zvmvN1-nqA8Q1bU&callback=initMap">
+</script>
+
+</body>
+
+</html>
